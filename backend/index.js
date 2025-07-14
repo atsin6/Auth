@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-const dotenv = require("dotenv");
+import dotenv from "dotenv";
 
 dotenv.config();
 
@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use(
   cors({
-    origin: "http://localhost:5173", // Replace with your frontend's origin
+    origin: process.env.CLIENT_URL, // Replace with your frontend's origin
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE", // Allowed HTTP methods
     credentials: true, // Allow sending cookies/authorization headers
     optionsSuccessStatus: 204, // For preflight requests (for old browsers)
