@@ -11,7 +11,7 @@ export async function handleSigninSubmit(form) {
 
     try {
       const response = await fetch(
-        `${import.meta.env.VITE_BACKEND_URL}/signip`,
+        `${import.meta.env.VITE_BACKEND_URL}/signin`,
         {
           method: "POST",
           headers: {
