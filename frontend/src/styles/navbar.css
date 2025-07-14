@@ -1,0 +1,41 @@
+#navbar{
+    height: auto;
+    width: 100vw;
+    backdrop-filter: blur(15px);
+    background-color: rgba(91, 91, 91, 0.162);
+    box-shadow: 0 4px 30px  rgba(200, 200, 200, 0.75);
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 20px;
+}
+
+#title{
+    /* font-size: 20px; */
+    /* text-decoration: white wavy underline; */
+    text-align: center;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#signinBtn, #signoutBtn{
+  font-size: var(--fontsize1);
+    padding: 5px ;
+}
+
+@media (max-width: 750px ) {
+  #navbar{
+    width: 100vw;
+    height: auto;
+  }
+  #title{
+    font-size: var(--fontsize3);
+  }
+  #signinBtn{
+    font-size: var(--fontsize1);
+  }
+}

@@ -1,0 +1,51 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  padding: 0;
+  margin: 0;
+
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #fcfcfc;
+  /* font: 16px; */
+}
+
+:root{
+  --font1: #fcfcfc;
+  --font2: #464646;
+
+  --fontsize1: 15px;
+  --fontsize2: 20px;
+  --fontsize3: 25px;
+  --fontsize4: 30px;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/anime-style-cozy-home-interior-with-furnishings.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#homepage{
+  height: 92vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px;
+}
+
+

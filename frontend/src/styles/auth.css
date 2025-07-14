@@ -1,0 +1,127 @@
+.authDiv{
+  height: auto;
+  width: 40vw;
+
+  backdrop-filter: blur(15px);
+  background-color: rgba(91, 91, 91, 0.1);
+  
+  box-shadow: 0 4px 30px rgba(255, 255, 255, 0.3);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+
+  padding: 15px;
+}
+
+a{
+    color:rgba(0, 0, 0, 0.86);
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.active-link{
+  color: rgba(203, 127, 64, 0.914);
+}
+
+/* .signupDiv:hover{
+  box-shadow: 0 4px 30px rgba(255, 255, 255, 0.3);
+} */
+
+.title{
+  text-align: start;
+  padding-bottom: 15px;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 15px;
+  gap: 5px;
+}
+
+.label{
+  font-size: var(--fontsize3);
+}
+
+.input{
+  border: none;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.75);
+
+  padding: 2px 5px;
+  transition: all 0.3s ease;
+
+  height: 30px;
+}
+
+.input:focus{
+  outline: none;
+  border: none;
+  box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.3);
+
+  background: rgba(255, 255, 255, 0.75);
+
+  padding: 2px 5px;
+
+  color: var(--font2);
+}
+.input::placeholder {
+  font-size: 12px ;
+}
+
+.input:is(:-webkit-autofill, :autofill) {
+  -webkit-box-shadow: 0 0 0 1000px rgba(185, 185, 185, 0.75) inset !important;
+
+  -webkit-text-fill-color: #464646 !important;
+  transition: background-color 5000s ease-in-out 0s !important;
+}
+.input.filled{
+  color: var(--font2);
+}
+
+.errMsg{
+  margin-bottom: 2px;
+  height: 13px;
+  color: #1c1c1c;
+}
+
+
+.btn{
+  font-size: var(--fontsize2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+
+  backdrop-filter: blur(10px);
+  background-color: rgba(48, 48, 48, 0.2);
+
+  box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.3);
+  
+  color: #fcfcfc;
+  padding: 5px 0;
+}
+
+.btn:hover{
+  box-shadow: 5px 4px 30px rgba(0, 0, 0, 0.3);  
+}
+
+#signinOption{
+  padding: 0 0 0 2px;
+}
+
+
+@media (max-width: 750px ) {
+  .authDiv{
+    width: 80vw;
+    height: auto;
+  }
+  .title{
+    font-size: var(--fontsize4);
+  }
+
+  .label{
+    font-size: var(--fontsize3);
+  }
+}

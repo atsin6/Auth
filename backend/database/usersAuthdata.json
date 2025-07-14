@@ -1,0 +1,58 @@
+[
+  {
+    "id": "n1a2b3c4d5",
+    "name": "Atul",
+    "email": "atul2@gmail.com",
+    "password": "$2b$10$TKceV6749Nxtnfy8bDRHD.B1blr4l7h74xde47eRIfjHRHlltAxsu",
+    "username": "atul2"
+  },
+  {
+    "id": "j1k2l3m4n5",
+    "name": "Atul",
+    "email": "atsin@gmail.com",
+    "password": "$2b$10$jCfkPlUNXsI/oq83nhknQeHt74gmySZpUZC7opOjsumkdNQmHTTlm",
+    "username": "atsin"
+  },
+  {
+    "id": "o6p7q8r9s0",
+    "name": "John",
+    "email": "john.doe@example.com",
+    "password": "$2b$10$9CNLLwnryMAuiCZqWN.9VeMtSqRYngg6D3J43gjxYAINeHNCkUJ9.",
+    "username": "john.doe"
+  },
+  {
+    "id": "t1u2v3w4x5",
+    "name": "Jane",
+    "email": "jane.doe@example.com",
+    "password": "$2b$10$/yBOeJCuZmpvgT3rsSV7OeCcXevh5pbk2DEC3ego4defoGwbZda8G",
+    "username": "jane.doe"
+  },
+  {
+    "id": "y6z7a8b9c0",
+    "name": "Sam",
+    "email": "sam.dev@example.com",
+    "password": "$2b$10$E/W2hQ4tuOvD6SC9xg0xNOxbkTkxIjl6ihlTH.4Mu988qaO73b152",
+    "username": "sam.dev"
+  },
+  {
+    "name": "Harkirat",
+    "email": "Harkirat@gmail.com",
+    "password": "$2b$10$2UeMdAUAFy87FFi/oKBdhOnOoHZXutzM7Sw.vXFmi.OvA7g7QNWAi",
+    "username": "Harkirat",
+    "id": "MJJithwLcGPW_KGEGd_RJ"
+  },
+  {
+    "name": "sdfsf",
+    "email": "sdfsdsafsdf",
+    "password": "$2b$10$Dut8AtSRHcNC8dNwIJqFse7HVzrl.A4csDVwX618.oB4hJkCssvce",
+    "username": "sdfsdsafsdf",
+    "id": "qeBaVLhBmH-RNMDBDYGdH"
+  },
+  {
+    "name": "Ritik",
+    "email": "ritik@atsin.com",
+    "password": "$2b$10$q.ifZZ6k16w.FDtjYuzq1uwJxN0Iimv.S5W4byKZK.hDQZkL.R0d2",
+    "username": "ritik",
+    "id": "9bLhYqZJt79WQVd1-Gjys"
+  }
+]
