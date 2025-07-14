@@ -12,13 +12,16 @@ export async function handleSignupSubmit(form) {
     const formDataStringify = JSON.stringify(formDataObject); // conveted into JSON
 
     try {
-      const response = await fetch("http://localhost:3000/signup", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: formDataStringify,
-      });
+      const response = await fetch(
+        `${import.meta.env.VITE_BACKEND_URL}/signup`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: formDataStringify,
+        }
+      );
 
       if (response.ok) {
         signUpDoneMsg();

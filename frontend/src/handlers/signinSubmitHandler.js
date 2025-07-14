@@ -10,13 +10,16 @@ export async function handleSigninSubmit(form) {
     const formDataStringify = JSON.stringify(formDataObject);
 
     try {
-      const response = await fetch("http://localhost:3000/signin", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: formDataStringify,
-      });
+      const response = await fetch(
+        `${import.meta.env.VITE_BACKEND_URL}/signip`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: formDataStringify,
+        }
+      );
 
       if (response.ok) {
         signInDoneMsg();
